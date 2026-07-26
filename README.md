@@ -1,6 +1,6 @@
 # UK Urban Ethnic Segregation Analysis (2021 Census)
 
-Supporting data and code for the "Current Issues" section of *Progressive Nationalism*, published on [PLACEHOLDER].
+Supporting data and code for the "Current Issues" section of *Progressive Nationalism*, published on https://substack.com/@adventavitasinus.
 
 This repo computes two measures of residential ethnic clustering across urban England and Wales, using the 2021 Census:
 
