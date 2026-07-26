@@ -52,7 +52,7 @@ def load_data():
     if "pct_asian" not in df.columns:
         df["pct_asian"] = df["asian_count"] / df["total_population"] * 100
 
-    df_urban = df[df["RUC11"].str.contains("Urban", case=False, na=False)].copy()
+    df_urban = df[df[RUC_COLUMN].str.contains("Urban", case=False, na=False)].copy()
     return df_urban
 
 
