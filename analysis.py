@@ -24,12 +24,15 @@ ETHNICITY_CSV = "data/msoa_ethnicity_ts021.csv"
 BOUNDARIES_GEOJSON = "data/msoa_boundaries_bgc.geojson"
 RURAL_URBAN_CSV = "data/msoa_rural_urban.csv"
 
-MIN_ASIAN_PCT_FOR_D = 5.0     # minimum % Asian population before a LAD's D is interpreted
+RUC_COLUMN = "Rural Urban flag"           # column name in your RUC file
+ASIAN_PCT_COLUMN = "pct_asian"            # or rename after loading if needed
+TOTAL_POP_COLUMN = "total_population"     # adjust to match your Nomis export
+
+MIN_ASIAN_PCT_FOR_D = 5.0
 HIGH_SEGREGATION_THRESHOLD = 0.6
 MODERATE_SEGREGATION_THRESHOLD = 0.5
 
 OUTPUT_DIR = "output"
-
 
 # ---------------------------------------------------------------------------
 # Stage 1: Load and merge
