@@ -64,7 +64,8 @@ Please cite the tagged release, not a live branch, so the linked version can't c
 
 ```
 Alexei Sirin. (2026). UK Urban Ethnic Segregation Analysis (2021 Census) [Software], v1.0.
-[https://github.com/[username]/uk-segregation-analysis/releases/tag/v1.0](https://github.com/adventavitasinus/Dissimilarity-Index-Data-Analysis-Methodology/)
+(https://github.com/adventavitasinus/Dissimilarity-Index-Data-Analysis-Methodology/releases/tag/v1.0)
+
 ```
 
 ## License
